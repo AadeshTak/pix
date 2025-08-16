@@ -7,6 +7,7 @@ interface ProductCardProps {
   imageUrl: string;
   title: string;
   price: string;
+  category?: string;
   alt?: string;
   className?: string;
   showWishlist?: boolean;
@@ -19,6 +20,7 @@ const ProductCard = ({
   imageUrl,
   title,
   price,
+  category,
   alt = "",
   className,
   showWishlist = true,
@@ -26,7 +28,7 @@ const ProductCard = ({
   onWishlistToggle
 }: ProductCardProps) => {
   return (
-    <div className={cn("flex flex-col items-center gap-8", className)}>
+    <div className={cn("flex flex-col gap-8", className)}>
       {/* Product Image Container */}
       <div className="relative w-full group">
         <Link to={`/product/${id}`} className="block w-full">
@@ -53,22 +55,32 @@ const ProductCard = ({
       </div>
 
       {/* Product Info */}
-      <div className="text-center">
-        <h3 className="text-black text-center font-normal text-xl leading-[30px] uppercase">
+      <div className="text-left">
+        {/* Category */}
+        {category && (
+          <span className="text-gray-600 font-jost text-sm uppercase tracking-wide block">
+            {category}
+          </span>
+        )}
+        
+        {/* Title */}
+        <h3 className="text-black text-xl">
           <span style={{ 
-            fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
-            fontWeight: 400,
-            fontSize: '20px',
-            color: 'rgba(0,0,0,1)'
+            fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
+            fontWeight: 500,
+            fontSize: '16px',
+            color: 'rgba(34,34,34,1)'
           }}>
             {title}
           </span>
         </h3>
-        <p className="text-black text-center font-normal text-xl leading-[30px] uppercase mt-1">
+        
+        {/* Price */}
+        <p className="text-black font-normal text-xl">
           <span style={{ 
-            fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+            fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
             fontWeight: 400,
-            fontSize: '20px',
+            fontSize: '16px',
             color: 'rgba(0,0,0,1)'
           }}>
             {price}

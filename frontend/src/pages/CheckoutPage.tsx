@@ -71,7 +71,7 @@ const CheckoutPage = () => {
               className="text-black font-normal uppercase"
               style={{
                 fontSize: '50px',
-                fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+                fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
                 fontWeight: 400,
                 lineHeight: '60px',
                 color: 'rgba(0,0,0,1)'
@@ -100,7 +100,7 @@ const CheckoutPage = () => {
                 className="text-black font-normal mb-4"
                 style={{
                   fontSize: '32px',
-                  fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+                  fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
                   fontWeight: 400
                 }}
               >

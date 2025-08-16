@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <Header />
+      <Header transparent={true} />
 
       {/* Hero Section */}
       <HeroSection />
@@ -106,7 +106,7 @@ const Index = () => {
           />
           <div className="absolute bottom-16 left-16 pointer-events-none">
             <h2
-              className="text-8xl text-white font-normal uppercase helvetica-custom"
+              className="text-8xl text-white font-normal uppercase font-jost"
               style={{
                 // fontFamily:
                 //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",

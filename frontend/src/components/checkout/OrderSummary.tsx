@@ -33,7 +33,7 @@ const OrderSummary = ({
         className="text-black font-normal uppercase mb-6"
         style={{
           fontSize: '24px',
-          fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+          fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
           fontWeight: 400,
           color: 'rgba(0,0,0,1)'
         }}
@@ -56,7 +56,7 @@ const OrderSummary = ({
               <h3 
                 className="text-black font-normal text-sm truncate"
                 style={{
-                  fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+                  fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
                   fontWeight: 400
                 }}
               >
@@ -73,7 +73,7 @@ const OrderSummary = ({
               <p 
                 className="text-black font-normal text-sm"
                 style={{
-                  fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+                  fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
                   fontWeight: 400
                 }}
               >
@@ -103,7 +103,7 @@ const OrderSummary = ({
             className="text-black font-medium"
             style={{
               fontSize: '18px',
-              fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+              fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
               fontWeight: 500
             }}
           >
@@ -113,7 +113,7 @@ const OrderSummary = ({
             className="text-black font-medium"
             style={{
               fontSize: '18px',
-              fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+              fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
               fontWeight: 500
             }}
           >

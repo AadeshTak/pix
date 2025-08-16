@@ -62,7 +62,7 @@ const CheckoutForm = ({ onSubmit, className }: CheckoutFormProps) => {
           className="text-black font-normal uppercase mb-6"
           style={{
             fontSize: '24px',
-            fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+            fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
             fontWeight: 400,
             color: 'rgba(0,0,0,1)'
           }}
@@ -100,7 +100,7 @@ const CheckoutForm = ({ onSubmit, className }: CheckoutFormProps) => {
           className="text-black font-normal uppercase mb-6"
           style={{
             fontSize: '24px',
-            fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+            fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
             fontWeight: 400,
             color: 'rgba(0,0,0,1)'
           }}
@@ -216,7 +216,7 @@ const CheckoutForm = ({ onSubmit, className }: CheckoutFormProps) => {
           className="text-black font-normal uppercase mb-6"
           style={{
             fontSize: '24px',
-            fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+            fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
             fontWeight: 400,
             color: 'rgba(0,0,0,1)'
           }}

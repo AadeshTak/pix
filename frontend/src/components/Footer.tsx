@@ -1,13 +1,17 @@
 const Footer = () => {
   return (
-    <footer className="w-full bg-white py-16 px-16 helvetica-custom">
-      <div className="max-w-screen-2xl mx-auto">
+    <footer className="w-full py-16 px-16 font-jost"
+      style={{
+        backgroundColor: 'rgba(13,13,13,1)'
+      }}
+    >
+      <div className="max-w-screen-2xl mx-auto text-white">
         <div className="grid grid-cols-4 gap-16">
           {/* Explore Highstreet Pix Column */}
           <div className="space-y-6">
             <div className="relative">
               <h3
-                className="text-xl font-normal uppercase text-black mb-2"
+                className="text-xl font-normal uppercase mb-2"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -15,12 +19,12 @@ const Footer = () => {
               >
                 Explore Highstreet Pix
               </h3>
-              <div className="w-20 h-0.5 bg-black" />
+              <div className="w-20 h-0.5 bg-white" />
             </div>
             <div className="space-y-4">
               <a
                 href="#"
-                className="block text-base font-normal text-black"
+                className="block text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -30,7 +34,7 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                className="block text-base font-normal text-black"
+                className="block text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -40,7 +44,7 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                className="block text-base font-normal text-black"
+                className="block text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -50,7 +54,7 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                className="block text-base font-normal text-black"
+                className="block text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -65,7 +69,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="relative">
               <h3
-                className="text-xl font-normal uppercase text-black mb-2"
+                className="text-xl font-normal uppercase mb-2"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -73,11 +77,11 @@ const Footer = () => {
               >
                 Policy
               </h3>
-              <div className="w-20 h-0.5 bg-black" />
+              <div className="w-20 h-0.5 bg-white" />
             </div>
             <div className="space-y-4">
               <p
-                className="text-base font-normal text-black"
+                className="text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -86,7 +90,7 @@ const Footer = () => {
                 Terms of use:
               </p>
               <p
-                className="text-base font-normal text-black"
+                className="text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -95,7 +99,7 @@ const Footer = () => {
                 Privacy Policy:
               </p>
               <p
-                className="text-base font-normal text-black"
+                className="text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -104,7 +108,7 @@ const Footer = () => {
                 Return & cancellation:
               </p>
               <p
-                className="text-base font-normal text-black"
+                className="text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -119,7 +123,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="relative">
               <h3
-                className="text-xl font-normal uppercase text-black mb-2"
+                className="text-xl font-normal uppercase mb-2"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -127,11 +131,11 @@ const Footer = () => {
               >
                 More About Pix
               </h3>
-              <div className="w-20 h-0.5 bg-black" />
+              <div className="w-20 h-0.5 bg-white" />
             </div>
             <div className="space-y-4">
               <p
-                className="text-base font-normal text-black"
+                className="text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -140,7 +144,7 @@ const Footer = () => {
                 Carrers:
               </p>
               <p
-                className="text-base font-normal text-black"
+                className="text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -149,7 +153,7 @@ const Footer = () => {
                 Locate Us:
               </p>
               <p
-                className="text-base font-normal text-black"
+                className="text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -164,7 +168,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="relative">
               <h3
-                className="text-xl font-normal uppercase text-black mb-2"
+                className="text-xl font-normal uppercase mb-2"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -172,11 +176,11 @@ const Footer = () => {
               >
                 Customer Support
               </h3>
-              <div className="w-20 h-0.5 bg-black" />
+              <div className="w-20 h-0.5 bg-white" />
             </div>
             <div className="space-y-4">
               <p
-                className="text-base font-normal text-black"
+                className="text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -185,7 +189,7 @@ const Footer = () => {
                 Call:
               </p>
               <p
-                className="text-base font-normal text-black"
+                className="text-base font-normal"
                 style={{
                   // fontFamily:
                   //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",

@@ -6,15 +6,15 @@ const ContactPage = () => {
     <div className="min-h-screen bg-white">
       <Header />
       
-      <main className="pt-24 px-16 py-12">
+      <main className="pt-28 px-16 py-12">
         <div className="max-w-screen-2xl mx-auto">
-          <h1 className="text-4xl font-bold text-black mb-8 uppercase helvetica-custom">
+          <h1 className="text-4xl font-bold text-black mb-8 uppercase font-jost">
             Contact Us
           </h1>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-2xl font-semibold text-black mb-6 helvetica-custom">
+              <h2 className="text-2xl font-semibold text-black mb-6 font-jost">
                 Get in Touch
               </h2>
               <div className="space-y-4">
@@ -47,7 +47,7 @@ const ContactPage = () => {
 
             {/* Contact Form */}
             <div>
-              <h2 className="text-2xl font-semibold text-black mb-6 helvetica-custom">
+              <h2 className="text-2xl font-semibold text-black mb-6 font-jost">
                 Send us a Message
               </h2>
               <form className="space-y-4">
@@ -93,7 +93,7 @@ const ContactPage = () => {
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-black text-white py-3 px-6 rounded-md hover:bg-gray-800 transition-colors duration-200 helvetica-custom uppercase"
+                  className="w-full bg-black text-white py-3 px-6 rounded-md hover:bg-gray-800 transition-colors duration-200 font-jost uppercase"
                 >
                   Send Message
                 </button>

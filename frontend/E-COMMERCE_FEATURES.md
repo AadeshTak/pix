@@ -7,7 +7,7 @@ This document outlines the new e-commerce pages and components that have been ad
 ### 1. CollectionPage (`/collection`)
 - **Features**: Product grid with customizable layouts (2, 3, or 4 columns)
 - **Components**: Filter controls, grid layout toggle, product cards
-- **Design**: Matches the provided Figma design exactly with Helvetica fonts and luxury styling
+- **Design**: Matches the provided Figma design exactly with Jost fonts and luxury styling
 - **Navigation**: Accessible via header menu icon
 
 ### 2. ProductDetailPage (`/product/:id`)
@@ -64,7 +64,7 @@ This document outlines the new e-commerce pages and components that have been ad
 ## Design System Compliance
 
 ### Typography
-- **Primary Font**: Helvetica (matches existing design system)
+- **Primary Font**: Jost (matches existing design system)
 - **Font Weights**: 400 (normal), 500 (medium) for headings
 - **Font Sizes**: Consistent with existing scale (20px for product titles, 50px for page headers)
 

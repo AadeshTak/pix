@@ -6,6 +6,7 @@ interface Product {
   imageUrl: string;
   title: string;
   price: string;
+  category?: string;
   alt?: string;
   isWishlisted?: boolean;
 }
@@ -40,7 +41,7 @@ const ProductGrid = ({
     <div className={cn("w-full", className)}>
       <div 
         className={cn(
-          "grid gap-8 w-full",
+          "grid gap-3 w-full",
           getGridCols()
         )}
         // style={{ 
@@ -55,6 +56,7 @@ const ProductGrid = ({
             imageUrl={product.imageUrl}
             title={product.title}
             price={product.price}
+            category={product.category}
             alt={product.alt}
             isWishlisted={product.isWishlisted}
             onWishlistToggle={onWishlistToggle}

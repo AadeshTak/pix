@@ -43,7 +43,7 @@ const OrderSuccessPage = () => {
               className="text-black font-normal uppercase mb-6"
               style={{
                 fontSize: '50px',
-                fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+                fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
                 fontWeight: 400,
                 lineHeight: '60px',
                 color: 'rgba(0,0,0,1)'
@@ -56,7 +56,7 @@ const OrderSuccessPage = () => {
               className="text-gray-600 mb-8 max-w-md mx-auto"
               style={{
                 fontSize: '18px',
-                fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+                fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
                 lineHeight: '28px'
               }}
             >
@@ -69,7 +69,7 @@ const OrderSuccessPage = () => {
                 className="text-black font-medium mb-4"
                 style={{
                   fontSize: '24px',
-                  fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+                  fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif',
                   fontWeight: 500
                 }}
               >
@@ -105,7 +105,7 @@ const OrderSuccessPage = () => {
                 className="text-gray-600 mb-4"
                 style={{
                   fontSize: '16px',
-                  fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif'
+                  fontFamily: 'Jost, -apple-system, Roboto, Jost, sans-serif'
                 }}
               >
                 Need help with your order?

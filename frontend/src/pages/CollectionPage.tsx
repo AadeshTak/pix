@@ -10,32 +10,36 @@ const mockProducts = [
   {
     id: "1",
     imageUrl: "https://api.builder.io/api/v1/image/assets/TEMP/6714f073aacab712b21f60fbf4e61031c285fc0d?width=841",
-    title: "SIGNATURE Collection",
-    price: "120000/-",
+    title: "Camilla",
+    price: "₹120000",
+    category: "Signature Collection",
     alt: "Signature Collection Product 1",
     isWishlisted: false
   },
   {
     id: "2",
     imageUrl: "https://api.builder.io/api/v1/image/assets/TEMP/0efc5ea89a5ee8e0294affd324731a2314beb84b?width=841",
-    title: "SIGNATURE Collection",
-    price: "120000/-",
+    title: "Amethyst",
+    price: "₹120000",
+    category: "Signature Collection",
     alt: "Signature Collection Product 2",
     isWishlisted: false
   },
   {
     id: "3",
     imageUrl: "https://api.builder.io/api/v1/image/assets/TEMP/bdbf39600435e40a6f9b6e8648985bdc886f117b?width=841",
-    title: "SIGNATURE Collection",
-    price: "120000/-",
+    title: "Irisa",
+    price: "₹120000",
+    category: "Signature Collection",
     alt: "Signature Collection Product 3",
     isWishlisted: true
   },
   {
     id: "4",
     imageUrl: "https://api.builder.io/api/v1/image/assets/TEMP/70502f0f5e1eb5199d05b1e35468e1ad7c937629?width=841",
-    title: "SIGNATURE Collection",
-    price: "120000/-",
+    title: "Grace",
+    price: "₹120000",
+    category: "Signature Collection",
     alt: "Signature Collection Product 4",
     isWishlisted: true
   }
@@ -46,9 +50,9 @@ const CollectionPage = () => {
   const [products, setProducts] = useState(mockProducts);
 
   const handleWishlistToggle = (productId: string, isWishlisted: boolean) => {
-    setProducts(prev => 
-      prev.map(product => 
-        product.id === productId 
+    setProducts(prev =>
+      prev.map(product =>
+        product.id === productId
           ? { ...product, isWishlisted }
           : product
       )
@@ -63,13 +67,12 @@ const CollectionPage = () => {
       {/* Main Content */}
       <main className="pt-24">
         {/* Page Title */}
-        <div className="flex justify-center pt-16 pb-16">
-          <h1 
+        <div className="flex justify-center pt-8 pb-6">
+          <h1
             className="text-black text-center font-normal uppercase"
             style={{
               width: '635px',
-              fontSize: '50px',
-              fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+              fontSize: '25px',
               fontWeight: 400,
               color: 'rgba(0,0,0,1)'
             }}
@@ -78,18 +81,31 @@ const CollectionPage = () => {
           </h1>
         </div>
 
+        {/* Horizontal Line */}
+        {/* <div className="px-16 pb-4">
+          <svg
+            width="1800"
+            height="1"
+            viewBox="0 0 1800 1"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-full"
+          >
+            <path d="M0 1L1800 1" stroke="black" strokeWidth="2" />
+          </svg>
+        </div> */}
+
         {/* Filter and Layout Controls */}
         <div className="px-16 pb-8">
-          <div 
+          <div
             className="flex justify-between items-center"
           >
             {/* Filter Label */}
             <div>
-              <span 
+              <span
                 className="text-black text-center font-normal uppercase"
                 style={{
-                  fontSize: '20px',
-                  fontFamily: 'Helvetica, -apple-system, Roboto, Helvetica, sans-serif',
+                  fontSize: '12px',
                   fontWeight: 400,
                   lineHeight: '20px',
                   color: 'rgba(0,0,0,1)'
@@ -105,20 +121,6 @@ const CollectionPage = () => {
               onLayoutChange={setGridLayout}
             />
           </div>
-        </div>
-
-        {/* Horizontal Line */}
-        <div className="px-16 pb-12">
-          <svg
-            width="1800"
-            height="2"
-            viewBox="0 0 1800 2"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-full"
-          >
-            <path d="M0 1L1800 1" stroke="black" strokeWidth="2"/>
-          </svg>
         </div>
 
         {/* Products Grid */}

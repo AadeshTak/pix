@@ -70,7 +70,7 @@ const CollectionSection: React.FC<CollectionSectionProps> = ({
                 className={`text-4xl md:text-7xl lg:text-8xl ${titleColorClass} font-bold uppercase tracking-wider leading-tight`}
                 style={{
                   fontFamily:
-                    "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
+                    "Jost, -apple-system, Roboto, Jost, sans-serif",
                   ...titleStyle,
                 }}
               >
@@ -107,7 +107,7 @@ const CollectionSection: React.FC<CollectionSectionProps> = ({
           style={{ zIndex: 1 }}
         >
           <h2
-            className={`${titleSize} ${titleColorClass} font-normal uppercase tracking-wider text-center helvetica-custom`}
+            className={`${titleSize} ${titleColorClass} font-normal uppercase tracking-wider text-center font-jost`}
             style={{
               // fontFamily:
               //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",

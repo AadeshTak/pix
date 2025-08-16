@@ -33,16 +33,16 @@ const GridLayoutToggle = ({
       >
         <div 
           className="flex items-center gap-1"
-          style={{ 
-            width: layout.squares === 2 ? '34.5px' : layout.squares === 3 ? '55px' : '73.5px',
-            height: '15px'
-          }}
+          // style={{ 
+          //   width: layout.squares === 2 ? '34.5px' : layout.squares === 3 ? '55px' : '73.5px',
+          //   height: '15px'
+          // }}
         >
           {squares.map((index) => (
             <div
               key={index}
               className={cn(
-                "w-[15px] h-[15px] flex-shrink-0",
+                "w-[10px] h-[10px] flex-shrink-0",
                 isActive
                   ? "border-2 border-black bg-black"
                   : "border border-black bg-transparent"

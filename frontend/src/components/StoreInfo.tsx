@@ -4,7 +4,7 @@ const StoreInfo = () => {
       {/* Store Title */}
       <div className="text-center py-10">
         <h2
-          className="text-4xl font-bold uppercase text-black helvetica-custom"
+          className="text-4xl font-bold uppercase text-black font-jost"
           style={{
             // fontFamily:
             //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -27,7 +27,7 @@ const StoreInfo = () => {
         <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 text-center">
           <div className="text-white">
             <p
-              className="text-xl font-normal whitespace-nowrap helvetica-custom"
+              className="text-xl font-normal whitespace-nowrap font-jost"
               style={{
                 // fontFamily:
                 //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
@@ -38,7 +38,7 @@ const StoreInfo = () => {
               Road, Camp, Pune - 411001 Maharashtra, India
             </p>
             <p
-              className="text-xl font-normal mt-0 mb-0 leading-none helvetica-custom"
+              className="text-xl font-normal mt-0 mb-0 leading-none font-jost"
               style={{
                 // fontFamily:
                 //   "Helvetica, -apple-system, Roboto, Helvetica, sans-serif",
