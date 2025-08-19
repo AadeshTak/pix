@@ -56,7 +56,7 @@ const WishlistPage = () => {
       <Header />
 
       {/* Main Content */}
-      <main className="pt-24">
+      <main className="pt-36">
         <div className="container mx-auto px-16 py-16">
           
           {/* Page Header */}

@@ -65,7 +65,7 @@ const CollectionPage = () => {
       <Header />
 
       {/* Main Content */}
-      <main className="pt-24">
+      <main className="pt-36">
         {/* Page Title */}
         <div className="flex justify-center pt-8 pb-6">
           <h1

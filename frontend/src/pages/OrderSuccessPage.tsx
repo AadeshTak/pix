@@ -12,7 +12,7 @@ const OrderSuccessPage = () => {
       <Header />
 
       {/* Main Content */}
-      <main className="pt-24">
+      <main className="pt-36">
         <div className="container mx-auto px-16 py-24">
           <div className="max-w-2xl mx-auto text-center">
             

@@ -13,7 +13,7 @@ const HeroSection = () => {
       </video>
       
       {/* Optional overlay for better text readability */}
-      {/* <div className="absolute inset-0 bg-black bg-opacity-30" /> */}
+      <div className="absolute inset-0 bg-black bg-opacity-30" />
       
       {/* Content overlay - add your hero content here */}
       {/* <div className="relative z-10 flex items-center justify-center h-full">

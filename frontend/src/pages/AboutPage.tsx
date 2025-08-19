@@ -6,7 +6,7 @@ const AboutPage = () => {
     <div className="min-h-screen bg-white">
       <Header />
       
-      <main className="pt-28 px-16 py-12">
+      <main className="pt-36 px-16 py-12">
         <div className="max-w-screen-2xl mx-auto">
           <h1 className="text-4xl font-bold text-black mb-8 uppercase font-jost">
             About Us
